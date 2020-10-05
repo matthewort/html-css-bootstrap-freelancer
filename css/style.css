@@ -43,11 +43,11 @@ img {
   padding-left: 13%;
   padding-right: 13%;
   background-color: blue;
-  margin: -2%;
+  /* margin: -2%; */
 }
 
 .tre {
-  height: 250px;/
+  height: 350px;/
 }
 
 /* section5 */
@@ -67,5 +67,9 @@ img {
 /* section6 */
 
 .seiup {
-  height: 250px;
+  height: 150px;
+}
+
+.sei {
+  height: 600px;
 }
