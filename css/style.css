@@ -13,7 +13,7 @@ img {
 /* debug */
 [class*="col-"] {
   min-height: 100px;
-  background-color: lightgreen;
+  background-color: #5ea9be;
   border: solid 1px black;
   padding: 2px;
 }
@@ -22,7 +22,7 @@ body {
   font-family: verdana;
 }
 
-/* section1 */
+/* section1 NAV BOOTSTRAP*/
 .uno {
   height: 120px;
   background-color: blue;
@@ -47,12 +47,16 @@ body {
   padding-right: 100px;
 }
 
-/* section2 */
+/* section2 icona START BOOTSTRAP */
+
+#section2 {
+  background-color: transparent;
+}
 
 .due {
   height: 650px;
-  padding-left: 200px;
-  padding-right: 200px;
+  /* padding-left: 200px;
+  padding-right: 200px; */
   padding-top: 80px;
 }
 
@@ -84,17 +88,29 @@ body {
   width: 250px;
 }
 
-hr {
-  margin-left: 600px;
-  margin-right: 600px;
-  border-width: 3px;
+.gnd hr {
   border-color: black;
+  border-width: 3px;
 }
 
-/* section3 */
+/* section3 PORTFOLIO */
 
 .treup {
   height: 200px;
+  padding-top: 70px;
+}
+
+.treup hr {
+  border-color: black;
+  border-width: 3px;
+}
+
+.treup h1 {
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
 }
 
 /* section4 */
@@ -107,8 +123,9 @@ hr {
 }
 
 .tre {
-  height: 350px;/
+  height: 350px;
 }
+
 
 /* section5 */
 
