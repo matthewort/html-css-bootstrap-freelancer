@@ -122,6 +122,25 @@ body {
   /* margin: -2%; */
 }
 
+@media screen and (max-width: 991px) {
+  #section4 {
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: blue;
+    /* margin: -2%; */
+  }
+}
+
+
+#section4 .text-center {
+  padding: 5px 5px 5px 5px;
+}
+
+#section4 img {
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
+
 .tre {
   height: 350px;
 }
@@ -133,13 +152,24 @@ body {
   height: 250px;
 }
 
-.cinqueside {
-  height: 400px;
+.cinquesidelft {
+  height: 200px;
+  font-size: 20px;
+}
+
+.cinquesiderght {
+  height: 200px;
+  font-size: 20px;
 }
 
 .cinquebottom {
   height: 150px;
 }
+
+@media screen and (max-width: 991px) {
+
+}
+
 
 /* section6 */
 
