@@ -18,16 +18,77 @@ img {
   padding: 2px;
 }
 
+body {
+  font-family: verdana;
+}
+
 /* section1 */
 .uno {
   height: 120px;
   background-color: blue;
 }
 
+#section1 {
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: darkblue;
+}
+
+#section1 .navbar-default {
+  background-color: green;
+}
+
+#section1 .navbar {
+    border: none;
+}
+
+#section1 .navbar-brand {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 /* section2 */
 
 .due {
   height: 650px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 80px;
+}
+
+.due2 {
+  padding-top: 2%;
+}
+
+.gnd {
+  height: 200px;
+}
+
+.gnd h1 {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.gnd p {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+#avatar {
+  height: 250px;
+  width: 250px;
+}
+
+hr {
+  margin-left: 600px;
+  margin-right: 600px;
+  border-width: 3px;
+  border-color: black;
 }
 
 /* section3 */
