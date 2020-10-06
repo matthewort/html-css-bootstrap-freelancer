@@ -18,9 +18,11 @@ img {
   /* padding: 2px; */
 }
 
-/* .container-fluid {
+/* .nopadding {
   padding-left: 0px;
   padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 } */
 
 body {
@@ -55,10 +57,6 @@ body {
 }
 
 #section1 .navbar-brand {
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 30px;
-  float: left;
 }
 
 /* section2 icona START BOOTSTRAP */
@@ -267,7 +265,7 @@ body {
   text-align: center;
 }
 
-/* section6 */
+/* section6 CONTACT ME */
 
 .seiup {
   height: 150px;
@@ -277,12 +275,42 @@ body {
   height: 600px;
 }
 
-/* section7 */
-.sette {
+
+
+
+/* section7 INFO */
+.sette1 {
   height: 300px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.sette2 {
+  height: 300px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.sette3 {
+  height: 300px;
+  text-align: center;
+  padding-top: 80px;
 }
 
 /* section8 */
 .otto {
-  height: 150px;
+  height: 60px;
+  text-align: center;
+}
+
+.ms_formsize {
+  height: 80px;
+  background-color: lightgrey;
+  border-color: none;
+}
+
+.ms_formbox {
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-top: 35px;
 }
