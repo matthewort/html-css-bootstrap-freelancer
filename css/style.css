@@ -18,12 +18,11 @@ img {
   /* padding: 2px; */
 }
 
-/* .nopadding {
+
+.ms_nopadding {
   padding-left: 0px;
   padding-right: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-} */
+}
 
 body {
   font-family: verdana;
@@ -275,8 +274,68 @@ body {
   height: 600px;
 }
 
+.ms_formsize {
+  height: 80px;
+  background-color: lightgrey;
+  border-color: none;
+}
+
+.ms_formbox {
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-top: 35px;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+
+  .ms_formsize {
+    height: 80px;
+    background-color: lightgrey;
+    border-color: none;
+  }
+
+  .ms_formbox {
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 35px;
+  }
 
 
+}
+
+@media screen and (min-width: 467px ) and (max-width: 990px) {
+
+  .ms_formsize {
+    height: 80px;
+    background-color: lightgrey;
+    border-color: none;
+  }
+
+  .ms_formbox {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 35px;
+  }
+
+
+}
+
+@media screen and (min-width: 415px) and (max-width: 466px) {
+
+  .ms_formsize {
+    height: 80px;
+    background-color: lightgrey;
+    border-color: none;
+  }
+
+  .ms_formbox {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 35px;
+  }
+
+
+}
 
 /* section7 INFO */
 .sette1 {
@@ -301,16 +360,4 @@ body {
 .otto {
   height: 60px;
   text-align: center;
-}
-
-.ms_formsize {
-  height: 80px;
-  background-color: lightgrey;
-  border-color: none;
-}
-
-.ms_formbox {
-  padding-left: 280px;
-  padding-right: 280px;
-  padding-top: 35px;
 }
