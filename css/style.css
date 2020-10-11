@@ -62,6 +62,7 @@ body {
   padding-left: 45px;
   color: white;
   font-weight: bold;
+  padding-top: 35px;
 }
 
 #section1 .navbar-right {
@@ -73,6 +74,7 @@ body {
 
 .navbar-default .navbar-nav > li > a {
   color: white;
+  padding-top: 35px;
 }
 
 /* section2 icona START BOOTSTRAP */
@@ -292,6 +294,10 @@ body {
 }
 
 /* section6 CONTACT ME */
+#ms_contact {
+  color: black;
+}
+
 .seiup {
   height: 150px;
 }
@@ -364,26 +370,47 @@ body {
 }
 
 /* section7 INFO */
+#section7 {
+  background-color: #1d3e93;
+}
+
 .sette1 {
   height: 300px;
   text-align: center;
   padding-top: 80px;
+  color: white;
+  font-style: tahoma;
+  font-size: 18px;
 }
 
 .sette2 {
   height: 300px;
   text-align: center;
   padding-top: 80px;
+  color: white;
+  font-style: tahoma;
+  font-size: 18px;
 }
 
 .sette3 {
   height: 300px;
   text-align: center;
   padding-top: 80px;
+  color: white;
+  font-style: tahoma;
+  font-size: 18px;
 }
 
 /* section8 */
+#section8 {
+  background-color: #1f3776;
+}
+
 .otto {
   height: 60px;
   text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-style: tahoma;
+  font-size: 18px;
 }
