@@ -13,8 +13,8 @@ img {
 /* debug */
 [class*="col-"] {
   min-height: 100px;
-  background-color: #5ea9be;
-  border: solid 1px black;
+  /* background-color: #5ea9be;
+  border: solid 1px black; */
   /* padding: 2px; */
 }
 
@@ -35,8 +35,9 @@ body {
 }
 
 #section1 {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: none;
   background-color: white;
   height: 100px;
 }
@@ -53,14 +54,30 @@ body {
 
 #section1 .navbar {
     border: none;
+    background-color: #193943;
 }
 
 #section1 .navbar-brand {
+  font-size: 25px;
+  padding-left: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+#section1 .navbar-right {
+  font-size: 16px;
+  padding-left: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
 }
 
 /* section2 icona START BOOTSTRAP */
 #section2 {
-  background-color: transparent;
+  background-color: #16c089;
 }
 
 .due {
@@ -104,6 +121,10 @@ body {
 }
 
 /* section3 PORTFOLIO */
+#ms_portfolio {
+  color: black;
+}
+
 .treup {
   height: 200px;
   padding-top: 70px;
@@ -126,7 +147,7 @@ body {
 #section4 {
   padding-left: 13%;
   padding-right: 13%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 /* ridimensionamento colonne immagini */
@@ -134,7 +155,7 @@ body {
   #section4 {
     padding-left: 0%;
     padding-right: 0%;
-    background-color: blue;
+    /* background-color: blue; */
   }
 }
 
@@ -154,6 +175,15 @@ body {
 
 
 /* section5 ABOUT */
+#section5 {
+  background-color: #16c089;
+  margin-top: 80px;
+}
+
+#ms_about {
+  color: black;
+}
+
 .cinqueup {
   height: 250px;
 }
