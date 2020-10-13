@@ -29,6 +29,10 @@ body {
 }
 
 /* section1 NAV BOOTSTRAP*/
+nav {
+border-radius: 0px!important;
+}
+
 .uno {
   height: 120px;
   background-color: white;
